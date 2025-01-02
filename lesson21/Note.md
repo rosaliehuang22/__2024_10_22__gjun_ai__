@@ -61,3 +61,8 @@
 - 在資料夾新增'.env'檔案
 - 在該檔案內，輸入項隱藏的東西，如 ```Gemini_API_KEY=OXOXOXOXOXO```
 - 設定不上傳github：新增'.gitignore'檔案，並在檔案內輸入不要上傳的檔名
+-使用時，輸入```from dotenv import load_dotenv```
+
+###安裝unicorn
+- 下載 + 安裝
+- 再次安裝"gunicorn -w 4 module:伺服器"：```gunicorn -w 4 main:app```
